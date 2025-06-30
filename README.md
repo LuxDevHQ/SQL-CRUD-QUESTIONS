@@ -1,42 +1,43 @@
-SQL Practice Questions on food_prod Table
+#### SQL Practice Questions on food_prod Table
 
 Below are 16 SQL-based questions designed to help you practice all CRUD (Create, Read, Update, Delete) operations using the food_prod table.
-CREATE Operations
 
-    Insert a new record for Maize harvested on 2025-05-10, including quantity harvested, average temperature, rainfall amount, soil pH level, pesticide used, organic certification, market price per kg, and export destination.
+1. CREATE Operations
 
-    Insert two different crop records (e.g., Wheat and Tea) into the table with different export destinations and organic certifications.
+a. Insert a new record for Maize harvested on 2025-05-10, including quantity harvested, average temperature, rainfall amount, soil pH level, pesticide used, organic certification, market price per kg, and export destination.
 
-READ Operations
+b. Insert two different crop records (e.g., Wheat and Tea) into the table with different export destinations and organic certifications.
 
-    Retrieve all details of the food_prod table.
+2. READ Operations
 
-    List all organic-certified crops that are exported to France.
+a. Retrieve all details of the food_prod table.
 
-    Display the crop type and quantity harvested for all entries harvested after January 1, 2025.
+b. List all organic-certified crops that are exported to France.
 
-    Show the top 3 crops with the highest market price per kg.
+c. Display the crop type and quantity harvested for all entries harvested after January 1, 2025.
 
-    Find all crops that used no pesticide.
+d. Show the top 3 crops with the highest market price per kg.
 
-    Count the total number of records in the food_prod table.
+e. Find all crops that used no pesticide.
 
-    Retrieve the average market price for each export destination.
+f. Count the total number of records in the food_prod table.
 
-    List all records where the soil pH level is below 5.5 and not organic certified.
+g. Retrieve the average market price for each export destination.
 
-    Identify crops with quantity harvested greater than 1000 kg and exported to countries starting with the letter G.
+h. List all records where the soil pH level is below 5.5 and not organic certified.
 
-UPDATE Operations
+i. Identify crops with quantity harvested greater than 1000 kg and exported to countries starting with the letter G.
 
-    Update the market price per kg to 50.00 for all Maize crops harvested before 2025-01-01.
+3. UPDATE Operations
 
-    Change the organic_certified status to "No" where pesticide_used is not null.
+a. Update the market price per kg to 50.00 for all Maize crops harvested before 2025-01-01.
 
-    Update the export destination to "Local" for all records where the market price per kg is below 20.00.
+b. Change the organic_certified status to "No" where pesticide_used is not null.
 
-DELETE Operations
+c. Update the export destination to "Local" for all records where the market price per kg is below 20.00.
 
-    Delete all records where the harvest date is before the year 2023.
+4. DELETE Operations
 
-    Remove all records where quantity harvested is null or equal to zero.
+a. Delete all records where the harvest date is before the year 2023.
+
+b. Remove all records where quantity harvested is null or equal to zero.
