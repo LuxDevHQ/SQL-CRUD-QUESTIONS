@@ -12,7 +12,7 @@ b. Insert two different crop records (e.g., Wheat and Tea) into the table with d
 
 a. Retrieve all details of the food_prod table.
 
-b. List all organic-certified crops that are exported to France.
+b. List all organic-certified crops that are exported to Europe.
 
 c. Display the crop type and quantity harvested for all entries harvested after January 1, 2025.
 
